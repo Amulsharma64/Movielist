@@ -68,12 +68,14 @@ nav {
   height: 280px;;
   width: 100%;
   border-radius: 8px;
-  object-fit: cover;
+  object-fit: cover
 }
 .card p{
   padding-bottom: .8rem;
   letter-spacing: -0.05em;
   line-height: 19px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+  padding-top: 2px;
 }
 
 @media (max-width:800px) {
